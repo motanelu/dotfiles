@@ -20,7 +20,7 @@ Start by using yum|brew|apt-get|whatever to install zsh on your system and then 
 ```
 cd ~
 mv .zshrc .zshrc.bak
-curl -o .zshrc https://raw.githubusercontent.com/motanelu/dotfiles/zshrc
+curl -o .zshrc https://raw.githubusercontent.com/motanelu/dotfiles/master/zshrc
 ```
 
 and restart your shell! Voila!
