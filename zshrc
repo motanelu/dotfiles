@@ -10,3 +10,4 @@ export EDITOR='vim'
 bindkey '^R' history-incremental-search-backward
 bindkey '^B' history-incremental-pattern-search-backward
 bindkey '^F' history-incremental-pattern-search-forward
+eval "$(thefuck --alias)"
