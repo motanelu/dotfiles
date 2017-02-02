@@ -16,3 +16,8 @@ if [ -e "$HOME/.zshrc.local" ]
 then
     source "$HOME/.zshrc.local"
 fi
+
+alias vim=nvim
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"
